@@ -2,7 +2,7 @@ package main
 
 import (
   "context"
-  personpb "github.com/funawo/grpc-sample/proto"
+	personpb "github.com/funawo/grpc-sample/proto"
   "log"
   "net"
 
