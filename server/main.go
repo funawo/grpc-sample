@@ -2,7 +2,7 @@ package main
 
 import (
   "context"
-  personpb "google.golang.org/grpc/examples/funawo/proto"
+  personpb "github.com/funawo/grpc-sample/proto"
   "log"
   "net"
 
