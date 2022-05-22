@@ -1,5 +1,5 @@
 syntax = "proto3";
-option go_package = "google.golang.org/grpc/examples/funawo/proto";
+option go_package = "github.com/funawo/grpc-sample/proto";
 service person {
   rpc Hello (HelloRequest) returns (HelloResponse) {}
 }
