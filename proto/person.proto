@@ -1,0 +1,15 @@
+syntax = "proto3";
+option go_package = "google.golang.org/grpc/examples/funawo/proto";
+service person {
+  rpc Hello (HelloRequest) returns (HelloResponse) {}
+}
+
+message HelloRequest {
+  optional string name = 1;
+  optional string email = 2;
+  optional int32 age = 3;
+}
+
+message HelloResponse {
+  optional string message = 1;
+}
